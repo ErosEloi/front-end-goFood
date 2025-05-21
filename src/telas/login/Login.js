@@ -85,6 +85,16 @@ const Login = () => {
           Não tem uma conta?
           <Link to="/cadastro" className="action-button primary-button">Cadastre-se</Link>
         </div>
+        
+
+        
+        <div className="restaurant-access">
+          <p>Acesso para restaurantes:</p>
+          <Link to="/login/restaurante" className="restaurant-button">
+            Entrar como Restaurante
+          </Link>
+      </div>
+      
       </div>
     </div>
   );

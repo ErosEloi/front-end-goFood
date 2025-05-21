@@ -131,6 +131,7 @@
   color: #666;
 }
 
+
 .signup-button {
   display: inline-block;
   margin-left: 5px;
@@ -154,4 +155,31 @@
 
 .signup-link a:hover {
   text-decoration: underline;
+}
+
+.restaurant-access {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.restaurant-access p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.restaurant-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f39c12;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.restaurant-button:hover {
+  background-color: #e67e22;
 }

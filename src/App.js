@@ -1,8 +1,8 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Login from './telas/login/Login';
 import Cadastro from './telas/cadastro/Cadastro';
-import './telas/login/Login.css'; 
+import LoginRestaurante from './telas/restaurante/login/LoginRestaurante';
+import CadastroRestaurante from './telas/restaurante/cadastro/CadastroRestaurante';
 
 function App() {
   return (
@@ -10,7 +10,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/login/restaurante" element={<LoginRestaurante />} />
         <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/cadastro/restaurante" element={<CadastroRestaurante />} />
       </Routes>
     </div>
   );
