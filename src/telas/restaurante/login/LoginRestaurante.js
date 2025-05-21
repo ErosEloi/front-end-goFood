@@ -56,6 +56,10 @@ const LoginRestaurante = () => {
         </button>
       </form>
 
+      <div className="signup-link">
+        Novo restaurante? <Link to="/cadastro/restaurante">Cadastre-se aqui</Link>
+      </div>
+
       <div className="back-link">
         <Link to="/login">Voltar para login principal</Link>
       </div>

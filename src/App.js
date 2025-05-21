@@ -13,6 +13,7 @@ function App() {
         <Route path="/login/restaurante" element={<LoginRestaurante />} />
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/cadastro/restaurante" element={<CadastroRestaurante />} />
+        <Route path="/login/restaurante" element={<LoginRestaurante />} />
       </Routes>
     </div>
   );
