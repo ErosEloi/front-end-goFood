@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './Login.css';
-import logo from './logo_login.png';
 import { Link } from 'react-router-dom';
 
 const Login = () => {
@@ -28,12 +27,6 @@ const Login = () => {
 
   return (
     <div className="login-container">
-      
-        <img 
-          src={logo} 
-          alt="Logo da aplicação" 
-          className="login-logo"
-        />
       
       
       <div className="login-box">

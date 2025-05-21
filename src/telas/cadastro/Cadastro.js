@@ -110,7 +110,7 @@ const Cadastro = () => {
           </button>
 
           <div className="login-link">Já tem uma conta? <Link to="/login">Faça login</Link></div>
-          
+
         </form>
       </div>
     </div>
